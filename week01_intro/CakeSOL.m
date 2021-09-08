@@ -17,3 +17,12 @@ Total_Cake_SA= Area_top + Area_side; % calculates total surface area
 
 %Prints out how much frosting we need in in^2
 fprintf('Amount of frosting needed for our cake (in^2): %f\n', Total_Cake_SA)
+
+%* ----- ----- -----
+%*     test cases
+%* ----- ----- -----
+%{
+cake radius: 19
+cake height: 11
+amount of frosting: 3581.415625
+%}
