@@ -4,49 +4,8 @@
 %Description: Lab Assignment 2 Solutions
 clc, clear, close all 
 
-%% Exercise 1: System of Equations
-clc, clear, close all 
-    %This program will ask the user for two matrix elements from a system
-    %of eqs and solve for the third
-    
-    CM = input('Enter your coefficient matrix (In brackets and seperated by ;): '); %This is the coefficient matrix. Should look like CM = [5 2 7; 6 -4 9; 8 -12 -7]
-    SM = input('Enter your results matrix (In brackets and seperated by ;): '); %This is the RHS col vector
-    XM = inv(CM) * SM;
-   
-    fprintf ('The calculated values for the system of equations are \n');
-    disp(XM)
-    
-    ChM = CM * XM;
-    ChM= round(ChM);
-    
-    if ChM == SM
-        fprintf ('The calculated values for the system of equations have been verified and are correct')
-    else
-        fprintf ('The calculated values for the system of equations have been verified and are NOT correct')
-    end    
-%% Exercise 2: Logical Operations
 
-    A= true;
-    B= false;
-    C= true;
-    
-    q1 = fprintf ('The logical AND of A and B is %d \n', (A & B));
-    q2 = fprintf ('The logical AND of A and B combined with the logical OR of C %d \n', ((A & B)|C));
-    q1 = fprintf ('The logical not of A is %d \n', (~A));
-    
-%% Exercise 3: If-statement 1
-
-    x = input('Enter x: ');
-    y = input('Enter y: ');
-    
-    if x > y
-        fprintf('x is greater than y \n')
-    elseif x < y
-        fprintf('x is less than y \n')
-    else 
-        fprintf('x is equal to y \n')
-    end
-%% Exercise 4: Leap year
+%% Exercise 1: Leap year
 
     year = input('Enter a year: ');
 
@@ -57,3 +16,40 @@ clc, clear, close all
     else
         fprintf('%d is not a leap year \n', year)
     end
+    
+ %% Exercise 2: Tea Party
+    fprintf('Tea options are white, green, oolong, black, and herbal\n')
+    teatime= input('Would you like a cup of tea? Y or N\n', 's')
+    
+   if teatime == 'Y'
+       tea = input('What kind of tea would you like?:\n ', 's');
+   else 
+       fprintf('Ok :( ')
+   end
+   
+   if strcmp(tea,'white')||strcmp(tea,'green')
+       fprintf('Brew the tea for 1-2 min\n')
+   elseif strcmp(tea,'black')||strcmp(tea,'oolong')
+       fprintf('Brew the tea for 2-3 min\n')
+   else
+       fprintf('Brew the tea for 3-6 min\n') 
+   end
+   
+%% Exercise 3: Tea Party Switch
+fprintf('Tea options are white, green, oolong, black, and herbal\n')
+    teatime= input('Would you like a cup of tea? Y or N\n', 's')
+    
+   if teatime == 'Y'
+       tea = input('What kind of tea would you like?:\n ', 's');
+   else 
+       fprintf('Ok :( ')
+   end
+   
+switch tea
+    case {'white','green'} 
+        fprintf('Brew the tea for 1-2 min\n')
+    case {'black','oolong'}
+        fprintf('Brew the tea for 2-3 min\n')
+    otherwise
+        fprintf('Brew the tea for 3-6 min\n')
+end
