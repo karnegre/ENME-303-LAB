@@ -1,4 +1,4 @@
-%ENME 303 Lab Lecture 4 Examples
+%ENME 303 Lab Lecture 4 Examples Pt 1
 %Home->layout->default
 %Author: Karla Negrete
 clc, clear all
