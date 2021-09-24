@@ -5,8 +5,8 @@
 clc, clear, close all 
 
 %% Exercise 1: Array Comp
- a= [1 8 9];
- b = [2 6 7];
+ a= [1 8 9 3];
+ b = [2 6 7 1];
  
  N= length(a);
  
@@ -44,7 +44,14 @@ for i=2:100 %Numbers from 2 to 100. 1 is NOT prime
  end
 end
 
-%% Exercise Guessing Game
+%% Exercise 3: Simple While
+ N= 1; 
+while N < 100
+    
+   N = N*(N+1); 
+end
+display(N) 
+%% Exercise 4: Guessing Game BONUS NOT GRADED NOW
 
 %Generates a random number for user to guess out of 20
 answer= randi(20);

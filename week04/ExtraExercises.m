@@ -2,26 +2,7 @@
 %Home->layout->default
 %Author: Karla Negrete
 clc, clear all
-%% Exercise For Intro
-for Count = 1:10
-     fprintf('Count = %d\n', Count');
-end
-%% Exercise For Intro with User Input
-Max_Number = input('Enter a number to count up to: ');
 
-for Count = 1:Max_Number
-     fprintf('Count = %d\n', Count')
-end
-
-%% Exercise Vector
-
-Vector = [5 3 2 6 1 1 4 6 3 2];
-VecLength= length(Vector)
-
-for Index = 1:VecLength
-     Vector(Index) = Vector(Index) + 1;
-end
-disp(Vector);
 %% Exercise Nested For Loop 2D Matrix
 %The following example shows how to work with a 2-D matrix using two nested
 %for loops:
