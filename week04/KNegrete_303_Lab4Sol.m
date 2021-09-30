@@ -44,13 +44,16 @@ for i=2:100 %Numbers from 2 to 100. 1 is NOT prime
  end
 end
 
+if isequal(Prime_Numbers,primes(100))
+    fprintf('Correct')
+end
 %% Exercise 3: Simple While
  N= 1; 
 while N < 100
     
    N = N*(N+1); 
 end
-display(N) 
+disp(N) 
 %% Exercise 4: Guessing Game BONUS NOT GRADED NOW
 
 %Generates a random number for user to guess out of 20
