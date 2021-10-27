@@ -2,7 +2,7 @@ a = [1 2 0; -2 -3 -4];
 aT= matxTranspose(a)
 
 
-function out =matxTranpose(x)
+function out =matxTranspose(x)
     [num_row, num_col]=size(x);
     newX=zeros(num_col,num_row);
 
