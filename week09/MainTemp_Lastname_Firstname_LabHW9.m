@@ -9,7 +9,10 @@ Grader_input=input('Grading Part 1 or Part 2\n', 's');
 if isequal(Grader_input,'1')
     %Part 1 work
 elseif isequal(Grader_input,'2')
-    %Part 2 work
+    %Im giving you most of this! yay!
+    X_out = matTran(X,NewX,num_col,num_row); %1 output and 3 inputs 
+    fprintf('Transposed matrix is\n')
+    disp(X_out)
 end 
 
 %% Exercise 2: Matrix Determinant Checker
