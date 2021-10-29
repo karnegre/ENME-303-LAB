@@ -67,3 +67,39 @@ elseif isequal(Grader_input,'2')
     detFunc(X,num_row, num_col) %no output, just 3 inputs
 end 
 
+%% Func Lib
+%Exercise 1: Matrix Transpose-Part 2
+function [out_X] = matTran(in_X,in_NewX,col_X,row_X)
+    for i=1:col_X
+        for j=1:row_X
+            in_NewX(i,j)=in_X(j,i);
+        end
+    end
+out_X= in_NewX;
+end
+
+%Exercise 2: Matrix Determinant Checker- Part 2
+function detFunc(in_X, row_X, col_X)
+if (isequal(row_X,col_X))
+    if isequal(col_X,1)
+        Detmath=in_X;
+        fprintf('The determinant of matrix X is:\n')
+        disp(Detmath)
+    elseif isequal(col_X,2)
+        Detmath=(in_X(1,1)*in_X(2,2))-(in_X(1,2)*in_X(2,1));
+        fprintf('The determinant of matrix X is:\n')
+        disp(Detmath)
+    elseif isequal(col_X,3)
+        Detmath=(in_X(1,1)*in_X(2,2)*in_X(3,3))+(in_X(1,2)*in_X(2,3)*in_X(3,1))+(in_X(1,3)*in_X(2,1)*in_X(3,2))-(in_X(1,3)*in_X(2,2)*in_X(3,1))-(in_X(1,2)*in_X(2,1)*in_X(3,3))-(in_X(1,1)*in_X(2,3)*in_X(3,2));
+        fprintf('The determinant of matrix X is:\n')
+        disp(Detmath)
+    end
+    if isequal(round(det(in_X)),Detmath)
+        fprintf('Your determinant math is correct\n')
+    else
+        fprintf('Check your equations\n')
+    end
+else
+        fprintf('Matrix must be square\n')
+end
+end
