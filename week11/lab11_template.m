@@ -42,5 +42,5 @@ end
 A = cat(3, R, G, B); 
 
 %* Update the file name with your real name
-imwrite(A, 'lab11_LastNam_FirstName.png')
+imwrite(A, 'file_name.png')
 
