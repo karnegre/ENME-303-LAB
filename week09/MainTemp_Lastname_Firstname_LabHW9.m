@@ -15,7 +15,7 @@ if isequal(Grader_input,'1')
     %Part 1 work
 elseif isequal(Grader_input,'2')
     %Im giving you how to call the function! Yay!
-    X_out = matTran(X,NewX,num_col,num_row); %1 output and 3 inputs 
+    X_out = matTran(X,NewX,num_col,num_row); %1 output and 4 inputs 
     fprintf('Transposed matrix is\n')
     disp(X_out)
 end 
