@@ -1,9 +1,8 @@
-%* ========== ========== ==========
-%* Author: 　　　Roy Wu
-%* Description: shear transformation (Lab work)
-%* History:     10/26/2021 initial version 
-%*              10/31/2021 handling MATLAB's image coordinate system
-%* ========== ========== ==========
+%Author: Karla Negrete
+%UMBC ID: MQ31578
+%Course: ENME 303
+%Description: Lab Assignment 11 Solutions
+clc, clear, close all
 
 %% Prepare to work on the image
 %* read the image

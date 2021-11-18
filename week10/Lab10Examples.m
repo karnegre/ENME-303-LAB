@@ -1,4 +1,4 @@
-%% In Lab Ex 1: Projectile
+%% Ex 1: Projectile
 
 %Plotting projectile trajectory using equations for ideal projectile motion
 
