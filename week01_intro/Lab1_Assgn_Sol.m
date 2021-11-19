@@ -1,10 +1,13 @@
 %Author: Karla Negrete
 %UMBC ID: MQ31578
 %Course: ENME 303
-%Description: Lab Assignment 1 Solutions
+%Description: Lab Assignment 1 Solutions...
+%Refer to Week 1_ Assignment.PDF for Exercise details
+%Assignment location: Lab 1 folder in Google Drive
+%Updated: 2021.11.19 (KN)
 clc, clear, close all 
 
-%% Exercise: Cake
+%% Exercise 1: Cake
 
     %Inputs from user
     CakeRadius= input('What is the cakes radius: ');
@@ -19,7 +22,8 @@ clc, clear, close all
     
     %Prints out how much frosting we need in in^2
     fprintf('Amount of frosting needed for our cake (in^2): %f\n', Total_Cake_SA)
-%% Exercise: Triangle
+    
+%% Exercise 2: Triangle
 
     %* Initialize variables
     a= 10;
