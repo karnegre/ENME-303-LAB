@@ -2,7 +2,7 @@
 %UMBC ID: MQ31578
 %Course: ENME 303
 %Description: Lab Assignment 2 Solutions...
-%Refer to Week 2_ Assignment.PDF for Exercise details
+%Refer to Week 2_ Assignment.pdf for Exercise details
 %Assignment location: Lab 2 folder in Google Drive
 %Updated: 2021.11.19 (KN)
 clc, clear, close all 
