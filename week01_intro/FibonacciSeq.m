@@ -1,9 +1,9 @@
-%Karla Negrete
-%ENME 303: LAB 
-%Week 1
-
-%I would like for any script submitted to follow this format
-%Comments are required
+%Author: Karla Negrete
+%UMBC ID: MQ31578
+%Course: ENME 303
+%Description: Cool extra code. Not an assignment 
+%Updated: 2021.11.19 (KN)
+clc, clear, close all 
 
 clc, clear, close all 
 % clc will clear command window, clear will clear Workspace variables, and
