@@ -1,13 +1,14 @@
 %Author: Karla Negrete
 %UMBC ID: MQ31578
 %Course: ENME 303
-%Description: Lab Assignment 6 Solutions
+%Description: Lab Assignment 6 Solutions...
+%Refer to Week 6_ Assignment.pdf for Exercise details
+%Assignment location: Lab 6 folder in Google Drive
+%Updated: 2021.11.19 (KN)
 clc, clear, close all 
 
 %% Exercise 1: System of Equations
-    
-    %col of mat A = row of mat B
-    
+ 
     A = input('Enter your matrix A (in brackets): \n');
     B = input('Enter your matrix B (in brackets): \n');
     
