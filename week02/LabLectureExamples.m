@@ -1,8 +1,12 @@
 %Author: Karla Negrete
 %UMBC ID: MQ31578
 %Course: ENME 303
-%Description: In lab examples lab 2
+%Description: In lab exercises. Not an assignment...
+%Exercise used in slides..
+%Refer to Lab 2_ Control Flow I.pdf slides for Exercise details
+%Updated: 2021.11.19 (KN)
 clc, clear, close all 
+
 
 %% Exercise: Logical Operations
 
