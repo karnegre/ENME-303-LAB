@@ -1,7 +1,10 @@
 %Author: Karla Negrete
 %UMBC ID: MQ31578
 %Course: ENME 303
-%Description: Lab Assignment 7 Solutions
+%Description: Lab Assignment 7 Solutions...
+%Refer to Week 7_ Assignment.pdf for Exercise details
+%Assignment location: Lab 7 folder in Google Drive
+%Updated: 2021.11.19 (KN)
 clc, clear, close all 
 
 %% Matrix Inverse
