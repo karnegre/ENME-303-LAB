@@ -1,4 +1,14 @@
-   
+%Author: Karla Negrete
+%UMBC ID: MQ31578
+%Course: ENME 303
+%Description: Lab Assignment 9 Template...
+%Students will use this template to complete Week 9_ Assignment
+%Refer to Week 9_ Assignment.pdf for Exercise details
+%Assignment location: Lab 9 folder in Google Drive
+%Updated: 2021.11.19 (KN)
+clc, clear, close all 
+
+
 %ENME 303 
 %Author: 
 %Lab HW9 Template Main
