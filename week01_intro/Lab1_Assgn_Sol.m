@@ -37,7 +37,7 @@ clc, clear, close all
     %* c=12.3931
     c=sqrt((a^2)+(b^2)-2*a*b*cos(rad))
 
-%% Exercise: Temp Converter
+%% Exercise 3: Temp Converter
 
     %Asks user for temp in F
     T_in= input('Enter a temperature in F: ');
