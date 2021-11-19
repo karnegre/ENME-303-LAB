@@ -1,7 +1,10 @@
 %Author: Karla Negrete
 %UMBC ID: MQ31578
 %Course: ENME 303
-%Description: Lab Assignment 4 Solutions
+%Description: Lab Assignment 4 Solutions...
+%Refer to Week 4_ Assignment.pdf for Exercise details
+%Assignment location: Lab 4 folder in Google Drive
+%Updated: 2021.11.19 (KN)
 clc, clear, close all 
 
 %% Exercise 1: Array Comp
@@ -25,7 +28,7 @@ clc, clear, close all
       disp(y)
       
 %% Exercise 2: Prime Number
-    % For a # to be prime it must have two factors-itself and one
+% For a # to be prime it must have two factors-itself and one
     
     for i=2:100 %Numbers from 2 to 100. 1 is NOT prime
      for j=2:100 %This for loops checks all the j vectors in each element of i vector until moving on
@@ -47,13 +50,16 @@ clc, clear, close all
     if isequal(Prime_Numbers,primes(100))
         fprintf('Correct')
     end
+    
 %% Exercise 3: Simple While
     N= 1; 
     while N < 100
        N = N*(N+1); 
     end
     disp(N) 
+    
 %% Exercise 4: Guessing Game BONUS NOT GRADED NOW
+% A guessing game!
 
     %Generates a random number for user to guess out of 20
     answer= randi(20);
