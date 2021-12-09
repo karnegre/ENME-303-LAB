@@ -34,58 +34,5 @@ out = gSeidel(itr, augA,sDigit);
 fprintf('Iteration output table is:\n');
 disp(out);
 
-%% Problem 2: Convergence
-%-------------------------------
-%Matrix preparation:
+%out_altered= out(:,[10,50,200,400,700]);
 
-%Coefficient matrix
-A=[];
-%RHS of the system
-b=[];
-%Combine LHS and RHS to form an augmented matrix
-augA = [A b];
-%-------------------------------
-%Gauss Seidel Method
-
-%Number of iterations for our approximation
-itr = ;
-
-%Sigfigs
-sDigit = 4;
-
-%Calling our user-defined function
-%'out' is the actual output argument
-%'itr' and 'augA' are the actual input arguments
-out = gSeidel(itr, augA,sDigit);
-
-fprintf('Iteration output table is:\n');
-disp(out);
-
-%% Problem 3: Iterations
-%-------------------------------
-%Matrix preparation:
-
-%Coefficient matrix
-A=[];
-%RHS of the system
-b=[];
-%Combine LHS and RHS to form an augmented matrix
-augA = [A b];
-%-------------------------------
-%Gauss Seidel Method
-
-%Number of iterations for our approximation
-itr = ;
-
-%Sigfigs
-sDigit = 4;
-
-%Calling our user-defined function
-%'out' is the actual output argument
-%'itr' and 'augA' are the actual input arguments
-out = gSeidel(itr, augA,sDigit);
-
-%Prints specific rows from large out matrix
-out_altered= out(:,[10,50,200,400,700]);
-fprintf('Iteration output table is:\n');
-disp(out_altered);
